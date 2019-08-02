@@ -27,7 +27,6 @@ export class AuthService {
 
   private userSubscription: Subscription = new Subscription();
 
-
   constructor(  private afAuth: AngularFireAuth,
                 private router: Router,
                 private afDB: AngularFirestore,
